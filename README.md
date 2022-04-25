@@ -7,6 +7,15 @@
 - Spring Boot Versión 2.6.2
 - Apache Netbeans 12.0
 
+## Ejecutar el proyecto.
+
+- Puedes ejecutarlo directamente con docker, una vez descargada la aplicación [acá](https://github.com/tizoNic/spring-boot-test/releases/download/v1.0.0/apirest-0.0.1-SNAPSHOT.jar).
+
+``` bash 
+docker build -t apirest
+docker run -p 8080:8080 -it apirest
+```
+
 ## ¿Cómo comenzar?
 
 - Con el SQL Server instalado, debe de ejecutar el script [createdb.sql](https://github.com/pacisauctor/apirest-spring/blob/master/createdb.sql).
